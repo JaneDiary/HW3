@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta name="x-apple-disable-message-reformatting">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> 
+ </title>
+  <style type="text/css">
+   .textwrapper {
+		width: 100%;
+	max-width: 1200px
+;
+	font-family: arial, 'helvetica neue', helvetica, sans-serif;
+	background-color: #efefef;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+	 .header1 {font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	color: #0b2239;
+	opacity: 0.6;
+
+
+	 }
+
+	 .heading1 {  
+	font-weight: 900;
+	font-size: 90px;
+	line-height: 120px;
+	color: #0b2239;
+
+	 }
+
+	 .made {    
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	color: #0b2239;
+	opacity: 0.6;
+  
+
+
+	 }
+
+	 .esd-structure {    background: #0b2239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+
+	 .esd-block-text {
+ 
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 16px 0;
+    max-width: 920px;
+
+	 }
+
+	 .container {
+
+    background: #0b2239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+	 }
+
+	 .esd-block-link {    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4ad295;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #0b2239;
+
+
+	 }
+
+	 .esd-block-button {    
+       font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+
+	 }
+
+	 .esd-block-link1 {    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+ }
+ .box1_button {display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 10px;
+    position: static;
+    width: 130px;
+    height: 25px;
+    left: 116px;
+    top: 0px;
+    background: #4AD295;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+
+ }
+ .box2 {    background: #2b2627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+    margin-bottom: 72px;
+    padding: 10px;
+
+
+
+ }
+
+.box_img {
+	padding-left: 10px;
+
+}
+.box_img_2 {
+	padding-right: 10px;
+
+}
+
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.box_text {
+    position: static;
+
+ 
+    height: 20px;
+    left: 24px;
+    top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+
+
+
+}
+
+.box_text span {
+
+	    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    font color: #FFFFFF;
+}
+
+.box3 {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgb(96 96 96 / 15%), 0px 0px 1px rgb(96 96 96 / 10%);
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+
+
+}
+
+.box3_text {position: static;
+	width: 347px;
+    height: 40px;
+    left: 62px;
+    top: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0D0C22;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+
+
+}
+
+
+.esd-block-button1
+
+
+
+ {    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0d0c22;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 63px;
+    height: 28px;
+    margin: 10px; 
+
+
+
+
+}
+
+
+.esd-block-button2 {
+
+
+
+	    background: #ea4c89;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    width: 52px;
+    height: 28px;
+}
+
+.box4 { max-width: 600px;
+    padding: 12px 16px;
+    background: #26262b;
+    box-shadow: 0px 12px 24px -6px rgb(96 96 96 / 15%), 0px 0px 1px rgb(96 96 96 / 10%);
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.box4 p {
+    margin-right: 10;
+    max-width: 471px;
+    color: #ffffff;
+}
+
+.box4 span {
+    color: #e6842e;
+}
+
+.esd-block-button3 {
+
+	background: #ffffff;
+    border-radius: 8px;
+    width: 47px;
+    height: 28px;
+    color: #26262b;
+}
+
+.box5 {padding: 24px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    width: 360px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 12px 24px -6px rgb(96 96 96 / 15%), 0px 0px 1px rgb(96 96 96 / 10%);
+    border-radius: 6px;
+    justify-content: center;
+    margin-top: 40px;
+
+
+
+}
+
+.box5 h1 {
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    max-width: 121px;
+}
+
+
+
+
+.cookietext {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 20px;
+   
+    
+}
+
+.box5 a {
+    margin-right: 67px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.esd-block-button4 {
+	background: #09b3af;
+    box-shadow: 0px 2px 2px -2px rgb(34 38 50 / 30%);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 7px 7px 7px 7px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 8px;
+    
+}
+
+.two {display: flex;
+    align-items: center;}
+
+    .esd-structure  {display: flex;
+    align-items: center;}
+
+    .near {display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+    }
+
+    .box6 {padding: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    background: #ffffff;
+    box-shadow: 0px 12px 24px -6px rgb(96 96 96 / 15%), 0px 0px 1px rgb(96 96 96 / 10%);
+    border-radius: 16px;
+    justify-content: center;
+    margin-left: 40px;
+    width: 360px;
+    height: 170px;
+    padding-bottom: 30px;
+}
+
+ .box p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #687f8c;
+    margin-bottom: 16px;
+}
+
+.esd-block-button5 { 
+    background: #eaf0f4;
+    box-shadow: 0px 2px 2px -2px rgb(34 38 50 / 30%);
+    border-radius: 6px;
+    color: #687f8c;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px;
+    margin-right: 8px;
+    width: 160px;
+    height: 32px;
+}
+
+
+
+.esd-block-button6 {
+    background: #40c1a7;
+    box-shadow: 0px 2px 2px -2px rgb(34 38 50 / 30%);
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    width: 160px;
+    height: 32px;
+}
+
+.box6 h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0f181d;
+    max-width: 132px;
+}
+
+.cookiesettings {
+    font-size: 14px;
+    line-height: 20px;
+    color: #687f8c;
+    margin-bottom: 16px;
+}
+
+
+.box71 { padding: 32px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100% ), #ffffff;
+    box-shadow: 0px 8px 32px rgb(10 3 89 / 10%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 260px;
+    margin-right: 40px;
+    align-items: center;
+   margin-top: 20px;
+}
+
+.p11 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295a;
+    text-align: center;
+}
+
+.H11 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295a;
+    text-align: center;
+}
+
+.esd-block-button7 {  background: #4a7eff;
+  border-radius: 43px;
+  padding: 10px 32px;
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 32px;
+
+
+
+}
+
+.box72 { 
+    padding: 16px;
+    width: 320px;
+    height: 116px;
+    background: #ffffff;
+    box-shadow: 0px 8px 32px rgb(10 3 89 / 10%);
+    border-radius: 4px;
+    margin-left: 40px;
+}
+
+.p12 {    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.near2 {  display: flex;
+    align-items: center;
+
+
+}
+
+.near1 {  display: flex;
+    align-items: center;
+
+}
+
+.p13 {    text-decoration: none;
+    color: #6666ff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 139px;
+
+
+}
+
+.esd-block-button8    {padding: 8px;
+    background: #6666ff;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+
+</style>
+</head>
+<body>
+	<div class="textwrapper" style="width:100%">
+	<header class="header1" style="width: 100%">
+	V 1.1 
+	<div class="heading1">Cookie Banners</div>	
+	<div class="made"> made by JaneDiary </div>
+	
+	<div class="esd-structure" align="left">
+		<div class="esd-block-text" cellpadding="0" cellspacing="0"  style="width:1000px; height:50px;">
+			             By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+		</div>
+
+		<div class="esd-block-link" cellpadding="0" cellspacing="0"  style="width:130px; height: 50px;">
+			Cookie Setting
+
+		</div>
+		<div   class="box1_button" cellpadding="0" cellspacing="0"  style="width:130px; height:20px;">
+
+			<a  class="esd-block-button" target="_blank" href="https://videolab.by/uslugi/promyshlennaya-videos-emka">  Accept All Cookies  </a>
+		</div>
+	</div>
+	<div class="box2">
+	<div class="box_img_2" style="float:left; width:100px; height:50px;"> <img class="box_img" src="https://cdn.onlinewebfonts.com/svg/img_415928.png" width="40" height="40"></div>
+	<div style="float:left; width:1000px; height:50px;"> 
+	<p class="box_text"> We use cookies to enhance your user experience. By continuing to visit this site you agree to  <span style="text-decoration: underline;"> our use of cookies </span> </p> </div>
+	<div class="box_img_2" style="float:left; width:100px; height:50px" style="padding-bottom: 20px"> <img class="box_img" src="https://pngimg.com/uploads/peace_symbol/peace_symbol_PNG4.png" width="75" height="75"> 
+
+	</div>
+
+
+
+
+
+
+ 
+</div>
+
+<div class="box3" style="width: 600px"> 
+	<div style="float:left; width:60px; height:50px;"> <img class="box_img" src="https://png.pngtree.com/png-clipart/20190517/original/pngtree-vector-color-palette-icon-png-image_4187001.jpg" width="40" height="40"></div>
+	<div style="float:left; width: 300px; height:50px;"> 
+	<p class="box3_text"> We use cookies to ensure that we give you the best experience on our website  <span style="color: red; font-size: 14px"> <strong> Read cookies policies </strong> </span> </p> </div>
+	<butoon align="center"  style="float:left;" class="esd-block-button1"> 
+       Decline </butoon>
+       <butoon align="center"  style="float:left;" class="esd-block-button2"> 
+      Allow </butoon>
+    
+ 
+</div>
+
+<div class="box4" style="width: 600px"> 
+
+	
+	<p> App uses cookies to personalize your experience on our website. By continuing to use this site, you agree to  <span> <strong>  our cookie policy. </strong> </span> </p> 
+	<butoon align="center"  style="float:left;" class="esd-block-button3"> 
+       OK </butoon>
+
+ </div>
+ <div class="near" style="width: 1200px">
+      
+      <div class="box5" style="width: 500px"> 
+      	<div class="two"> <img  style="float:left" src="https://cdn.picpng.com/cookie/cookie-picture-26897.png" width="20" height="20">
+      		<h1 style="float:left"> Cookie Notice </h1>
+      	</div>
+      	<div style="margin-top: 40px"> </div>
+      	<p class="cookietext" style="text-align: left;"> We use cookies to learn how you interact with our content, and show you relevant content and ads based on your browsing history. You can adjust your settings below. <span> Here’s our policy  </span> </p>
+      
+      	<div class="two"> 
+      		<a style="float:left" href="https://www.picpng.com/cookie-png-26897"> Manage your preferences </a>
+      		<butoon align="center"  style="float:left;" class="esd-block-button4"> 
+       Accept </butoon>
+ </div>
+ 
+</div>
+
+  <div class="box6" style="width: 500px"> 
+      	<div class="two"> <img  style="float:left" src="https://cdn.picpng.com/cookie/cookie-picture-26897.png" width="20" height="20">
+      		<h1 style="float:left"> Cookie settings </h1>
+      	</div>
+      	<div style="margin-top: 40px"> </div>
+      	<p class="cookiesettings" style="text-align: left;"> We use our own cookies so that we can show you this website and understand how you use them to improve the services we offer </p>
+      
+      	<div class="two1"> 
+      	
+      		<butoon align="center"  style="float:left;" class="esd-block-button5"> 
+       Manage cookie </butoon>
+       <butoon align="center"  style="float:left;" class="esd-block-button6"> 
+       Accept all </butoon>
+ </div>
+ </div>
+    
+ 
+</div>
+
+<div class="near1" style="width: 1200px">
+
+
+	<div class="box71"  style="width: 300px; float:left"> 
+
+	<h1 class="H11"> Cookies </h1>
+
+		<p class="p11"> We use cookies to ensure that we give you the best experience on our website
+
+		</p>
+
+		     <butoon align="center" class="esd-block-button7"> 
+       Accept all </butoon>
+ </div>
+
+ <div class="box72"  style="width: 300px; float:left"> 
+ 	<p class="p12"> We care about your data, and we'd love to use cookies to make your experience better.
+ 	</p>
+ 	<div class="near2">
+ 		<p class="p13"> Privacy Policy </p>
+ 	<butoon align="center" class="esd-block-button8"> 
+       Accept all </butoon>
+ </div>
+
+ </div>
+
+</div>
+
+</div>
+
+</header>
+</div>
+</body>
+</html>
+
+	
+
+
+
